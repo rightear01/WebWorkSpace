@@ -1,0 +1,106 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/korBack.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}   
+
+.container{
+    padding: 100px 0;
+    background-attachment: scroll;
+}
+
+.container .KorPlayers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1050px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.container .KorPlayers .player{
+    width: 200px;
+    height: 200px;
+    margin: 4px;
+    background-color: #f0ffff;
+    border: 3px solid #888888;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform .1s, 
+                background-color 1s;
+}
+
+.container .KorPlayers .player:hover{
+    background-color:	#fafad2;
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.container .KorPlayers .player .image{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.container .KorPlayers .player:nth-child(1) .image{ background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/kor13.png?raw=true"); }
+.container .KorPlayers .player:nth-child(2) .image{ background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/kor9.png?raw=true"); }
+.container .KorPlayers .player:nth-child(3) .image{ background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/kor77.png?raw=true");}
+.container .KorPlayers .player:nth-child(4) .image{ background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/kor7.png?raw=true"); }
+.container .KorPlayers .player:nth-child(5) .image{ background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/kor8.png?raw=true"); }
+.container .KorPlayers .player:nth-child(6) .image{ background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/kor6.png?raw=true"); }
+.container .KorPlayers .player:nth-child(7) .image{ background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/kor2.png?raw=true"); }
+.container .KorPlayers .player:nth-child(8) .image{ background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/kor4.png?raw=true"); }
+.container .KorPlayers .player:nth-child(9) .image{ background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/kor3.png?raw=true"); }
+.container .KorPlayers .player:nth-child(10) .image{ background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/kor5.png?raw=true"); }
+.container .KorPlayers .player:nth-child(11) .image{ background-image: url("https://github.com/rightear01/WebWorkSpace/blob/main/KorPlayers/kor1.png?raw=true"); }
+
+.container .KorPlayers .player:nth-child(1){
+    font-size: 20px;
+    font-style: italic;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    text-justify: auto;
+}
+.container .KorPlayers .player:nth-child(2){
+    font-size: 20px;
+    font-style: italic;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    text-justify: auto;
+}
+.container .KorPlayers .player:nth-child(3){
+    font-size: 20px;
+    font-style: italic;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    text-justify: auto;
+    
+}
+
+.container .KorPlayers .player:nth-child(4){
+    font-size: 20px;
+    font-style: italic;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    text-justify: auto;
+}
+.container .logo{
+    width: 200px;
+    bottom: 1px;
+    position: fixed;
+}
+
+.container .logo img{
+    width: 100px;
+}
